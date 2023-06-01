@@ -1,0 +1,23 @@
+Page HTML:
+
+ - Ajouter une balise <title> avec une description pertinente pour chaque page.
+
+ - Utiliser des balises de titre <h1> à <h6> pour structurer le contenu et y inclure des mots-clés importants.
+
+ - Ajouter des attributs alt aux balises <img> pour fournir des descriptions alternatives pour les images.
+
+ - Utiliser des balises sémantiques appropriées pour structurer le contenu (ex : <header>, <nav>, <main>, <section>, <article>, <aside>, <footer>).
+
+ - Inclure une balise <meta name="description"> pour fournir une brève description du contenu de chaque page.
+
+ - Utiliser des balises <meta name="keywords"> pour spécifier les mots-clés importants pour chaque page.
+
+ - Ajouter des liens internes avec des mots-clés pertinents pour faciliter la navigation entre les pages.
+
+ - Utiliser des URL conviviales en utilisant des mots-clés descriptifs plutôt que des URL complexes et dynamiques.
+
+ - Valider le code HTML en utilisant un validateur en ligne pour s'assurer qu'il est syntaxiquement correct.
+
+ - Optimiser la vitesse de chargement du site en compressant les fichiers CSS et JavaScript, en optimisant les images et en utilisant la mise en cache des ressources statiques.
+
+ - Utiliser des balises de mise en évidence (<strong>, <em>) pour mettre en valeur certains éléments du contenu.
