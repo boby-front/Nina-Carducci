@@ -18,29 +18,6 @@
 	<link
 		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
 		rel="stylesheet">
-	<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
-		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<script src="./assets/maugallery.js"></script>
-	<script src="./assets/scripts.js"></script>
-	<script type="application/ld+json" src="https://schema.org/docs/releases/schemaorg-current-https.min.js"></script>
-	<script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "LocalBusiness",
-      "name": "Nina Carducci",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "68 avenue Alsace-Lorraine",
-        "addressLocality": "Bordeaux",
-        "postalCode": "33200",
-        "addressCountry": "FR"
-      },
-      "telephone": "05 56 67 78 89",
-      "openingHours": "Mo-Fr 10:00-19:00"
-    }
-</script>
-
 
 </head>
 
@@ -49,10 +26,11 @@
 		<h1 class="name">Nina Carducci</h1>
 		<nav class="nav">
 			<ul>
-				<li><a href="#about">À propos</a></li>
-				<li><a href="#gallery">Galerie</a></li>
-				<li><a href="#services">Service</a></li>
-				<li><a href="#contact">Contact</a></li>
+				<li><a href="#about" aria-label="À propos">À propos</a></li>
+				<li><a href="#gallery" aria-label="Galerie">Galerie</a></li>
+				<li><a href="#services" aria-label="Service">Service</a></li>
+				<li><a href="#contact" aria-label="Contact">Contact</a></li>
+
 				<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
 						target="_blank"><img src="assets/images/instagram.png" alt="logo instagram"></a></li>
 			</ul>
@@ -61,11 +39,14 @@
 	<main>
 		<header id="header">
 			<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-				<div class="carousel-indicators"><button type="button" data-bs-target="#carouselExampleIndicators"
-						data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button><button
-						type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-						aria-label="Slide 2"></button><button type="button" data-bs-target="#carouselExampleIndicators"
-						data-bs-slide-to="2" aria-label="Slide 3"></button></div>
+				<div class="carousel-indicators">
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+						class="active" aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+						aria-label="Slide 2"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+						aria-label="Slide 3"></button>
+				</div>
 				<div class="carousel-inner">
 					<div class="carousel-item active"><img
 							src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-compressed.jpg"
@@ -77,11 +58,11 @@
 							src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-compressed (1).jpg"
 							class="d-block w-100" alt="Mariés quis'embrassent"></div>
 				</div><button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-					data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span
-						class="visually-hidden">Previous</span></button><button class="carousel-control-next"
-					type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next"><span
-						class="carousel-control-next-icon" aria-hidden="true"></span><span
-						class="visually-hidden">Next</span></button>
+					data-bs-slide="prev" aria-label="Image précédente"><span class="carousel-control-prev-icon"
+						aria-hidden="true"></span><span class="visually-hidden">Previous</span></button><button
+					class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+					data-bs-slide="next" aria-label="Image suivante"><span class="carousel-control-next-icon"
+						aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
 			</div>
 		</header>
 		<article id="about">
@@ -211,6 +192,30 @@
 			</div>
 		</section>
 	</footer>
+
+	<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="./assets/maugallery.js"></script>
+	<script src="./assets/scripts.js"></script>
+	<script type="application/ld+json" src="https://schema.org/docs/releases/schemaorg-current-https.min.js"></script>
+	<script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Nina Carducci",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "68 avenue Alsace-Lorraine",
+        "addressLocality": "Bordeaux",
+        "postalCode": "33200",
+        "addressCountry": "FR"
+      },
+      "telephone": "05 56 67 78 89",
+      "openingHours": "Mo-Fr 10:00-19:00"
+    }
+</script>
+
 </body>
 
 </html>
